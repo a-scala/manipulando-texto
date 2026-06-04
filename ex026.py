@@ -1,0 +1,6 @@
+a = input('Digite uma frase: ').strip()
+b = a.upper()
+c = b.split()
+print(f'A letra A aparece {b.count('A')} vezes.')
+print(f'A primeira letra A aparece na posição {b.find('A')+1}.')
+print(f'A última letra A aparece na posição {b.rfind('A')+1}.')
