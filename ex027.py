@@ -1,4 +1,4 @@
-a = input('Digite seu nome completo: ').strip()
+a = str(input('Digite seu nome completo: ')).strip()
 b = a.split()
 print(f'Muito prazer em te conhecer!')
 print(f'Seu primeiro nome é {b[0]}.')
